@@ -10,4 +10,3 @@
   register: k8s_flannel_definition_apply
   changed_when: "'created' in k8s_flannel_definition_apply.stdout"
   run_once: true
-
