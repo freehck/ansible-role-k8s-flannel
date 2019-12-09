@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  author: Dmitrii Kashin
+  description: install flannel cni services in k8s
+  role_name: k8s_flannel
+  license: MIT
+
+  min_ansible_version: 2.7
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+
+  galaxy_tags:
+    - kubernetes
+    - k8s
+    - flannel
+
+dependencies: []

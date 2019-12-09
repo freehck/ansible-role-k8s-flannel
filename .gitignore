@@ -1,0 +1,8 @@
+*~
+tests/.vagrant
+tests/retry
+tests/provision/roles/*
+!tests/provision/roles/freehck.k8s_flannel
+**/*.log
+tests/provision/k8s-join-command
+tests/provision/retry
